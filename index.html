@@ -4,73 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>grand theft auto v</title>
+    <link rel="stylesheet" href="connexion.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <h1 id="title">Grand theft auto v</h1>
-        <img src="image/Logo.png" id="logo">
-    </header>
-    <nav>
-
-
-        <a href="#franklin">Franklin</a>
-        <a href="#trevor">Trévor</a>
-        <a href="#michael">Michael</a>
-
-
-
-    </nav>
-    <main>
-        <div class="container">
-            <h1 id="personnage">Les personnages</h1>
-            <section class="container-perso">
-                <h2 id="franklin">Franklin</h2>
-                <a href="https://fr.wikipedia.org/wiki/Franklin_Clinton">
-                    <img src="image/franklin.png">
-                </a>
-
-                <a href="detail-franklin.html">
-                    <br>
-                    <button> voir le detail</button>
-                    <br>
-                </a>
-
-
-            </section>
-            <section class="container-perso">
-                <h2 id="trevor">Trévor</h2>
-                <a href="https://fr.wikipedia.org/wiki/Trevor_Philips">
-                    <img src="image/trevor.jpeg">
-                </a>
-                <a href="detail-trevor.html">
-                    <br>
-                    <button> voir le detail</button>
-                </a>
-            </section>
-
-            <section class="container-perso">
-                <h2 id="michael">Michael</h2>
-                <a href="https://fr.wikipedia.org/wiki/Michael_De_Santa">
-                    <img src="image/michael.jpg">
-                </a>
-                <a href="detail-michael.html">
-                    <br>
-                    <button>  voir le detail</button>
-
-                </a>
-
-
-            </section>
-
-
-
+    <h1>connexion</h1>
+    <div class="formulaire">
+        <form method="get" action="/home.html">
+            <div class="container-form">
+            <label for="adress">adresse mail</label>: <input type="email" name="adress" id="adress" required>
         </div>
-    </main>
-
-
+        
+        <div class="container-form">
+            <label for="password">mot de passe</label>: <input type="password" name="password" id="password">
+        </div>
+        <div class="container-form">
+            <input type="checkbox" name="choix" id="bot"> <label for="bot">je ne suis pas un robot</label>
+        </div>
+            <input type="submit" value="connexion">
+        </form>
+    </div>
 </body>
 
 </html>

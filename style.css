@@ -1,43 +1,86 @@
-#title{
+#title {
     color: green;
     text-align: center;
 }
 
 
-.error{
-    color:blue
+.error {
+    color: blue
 }
 
-img{
+img {
     width: 220px;
     height: 220px;
 }
 
 
-.container-perso{
+.container-perso {
     text-align: center;
-    
+   
+
 }
 
-main{
-    list-style-position:inside;
+main {
+    list-style-position: inside;
 }
 
-#personnage{
+#personnage {
     text-align: center;
 }
 
-nav{
+nav {
     display: block;
     text-align: center;
-    list-style-position:inside;
+    list-style-position: inside;
 }
 
-#logo{
+#logo {
     position: absolute;
     width: 110px;
     height: 110px;
-   right: 80px;
-   top: 5px;
+    right: 80px;
+    top: 5px;
+}
+
+body {
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+
+#personnage {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#franklin {
+    color: green;
+}
+
+#trevor {
+    color: red;
+}
+
+#michael {
+    color: blue;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.perso{
+   
+    text-align: center;
+    list-style-position: inside;
 }
 

@@ -1,8 +1,7 @@
 .perso{
    
     text-align: center;
-    list-style-position: inside;
-    list-style-type: none
+    
 }
 
 button {
@@ -27,4 +26,17 @@ body {
 img {
     width: 220px;
     height: 220px;
+}
+
+li{
+    list-style-position: inside;
+    list-style-type: none
+}
+
+#logo {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    right: 80px;
+    top: 5px;
 }
